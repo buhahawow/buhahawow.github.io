@@ -28152,6 +28152,7 @@ class AuthService {
             baseURL: AuthService.BASE_URL,
             headers: {
                 Accept: 'application/json, text/plain, */*',
+                'Content-Type': 'application/x-www-form-urlencoded',
                 'x-requested-with': 'tw.twhawk.reversedfront',
             },
             withCredentials: false,
